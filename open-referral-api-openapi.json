@@ -1,0 +1,26 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "v1",
+        "title": "Open Referral API",
+        "description": "This is a specification describing the Open Referral API, using the Human Services Specification. This has been extracted from the Ohana API deployment, but will be standardized to refer to the universal standard that will apply to any Open Referral compliant API.",
+        "termsOfService": "https:\/\/openreferral.org\/documentation\/"
+    },
+    "servers": [
+        "httpapi.example.com\/api\/"
+    ],
+    "paths": [],
+    "components": {
+        "schemas": {
+            "organizations": {
+                "type": "object",
+                "properties": {
+                    "organizations_url": {
+                        "description": "The organization url.",
+                        "type": "string"
+                    }
+                }
+            }
+        }
+    }
+}
